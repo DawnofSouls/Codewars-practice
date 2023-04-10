@@ -1,6 +1,6 @@
 function countSheeps(arrayOfSheep) {
     let Count = 0;
-    array.forEach(element => {
+    arrayOfSheep.forEach(element => {
         if (element === true){
             Count++
         }
