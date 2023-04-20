@@ -1,12 +1,11 @@
 function moveZeros(arr) {
     let TotalZeros = 0;
-    arr = arr.filter(x => !(x === 0));
-
     for (let i = 0; i < arr.length; i++){
         if(arr[i] === 0){
             TotalZeros++;
         }
     }
+    arr = arr.filter(x => !(x === 0));
 
     for (let i = 0; i < TotalZeros; i++){
         arr.push(0);
