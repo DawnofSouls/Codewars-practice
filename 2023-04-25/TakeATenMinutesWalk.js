@@ -1,5 +1,4 @@
 function isValidWalk(walk) {
-  //insert brilliant code here
   function isValidWalk(walk) {
     let ns = 0, we = 0; 
       for (let dir of walk) { 
