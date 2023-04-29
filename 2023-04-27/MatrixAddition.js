@@ -2,6 +2,9 @@ function matrixAddition(a, b){
     //TODO
     let HorizontalArrayLength = a[0].length;
     let VerticalLength = a.length;
+    for()
+
+    
 
 
     return a.length;
